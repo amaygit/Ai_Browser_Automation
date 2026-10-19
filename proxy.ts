@@ -2,7 +2,6 @@ import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server"
 
 // Define which routes do NOT require a user to be logged in
 const isPublicRoute = createRouteMatcher([
-  "/", 
   "/sign-in(.*)", 
   "/sign-up(.*)"
 ])

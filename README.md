@@ -19,6 +19,7 @@ Setup @components/ui/sonner.tsx in @app/layout.tsx  and  alter the existing @app
 
 Add a dummy page under "test" name which will be protected(do not make it public in the proxy.ts) - to test if redirects works, do not run server, i will be testing manually
 
+now clean up my page.tsx. The only thing i want  rendered  inside  is the user button component from clerk
 ```tsx
 import { Button } from "@/components/ui/button";
 ```
