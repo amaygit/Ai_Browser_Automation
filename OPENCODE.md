@@ -1,1 +1,0 @@
-C:/Users/amayn/OneDrive/Desktop/Job Change/browser_automation/project_automation/AGENTS.md
